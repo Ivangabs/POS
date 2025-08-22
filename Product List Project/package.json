@@ -1,0 +1,20 @@
+{
+  "name": "product-list-project",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@zxing/browser": "^0.1.5",
+    "axios": "^1.11.0",
+    "canvas": "^3.1.2",
+    "node-telegram-bot-api": "^0.66.0",
+    "pg": "^8.16.3",
+    "string-similarity": "^4.0.4"
+  }
+}

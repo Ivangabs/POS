@@ -1,0 +1,21 @@
+<%- include('header.ejs') %>
+    <div class="login-container">
+        <h1>DRice Login</h2>
+        <form method="POST" action="/login">
+            <label for="username">Username</label>
+            <input type="text" name="username" placeholder="Username" required autofocus/>
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password" required />
+            <a href="" class="forgotPassword">Forgot Password?</a>
+            <% if (locals.error) { %>
+            <div class="error"><%= error %></div>
+            <% } %>
+            <% if (locals.message) { %>
+            <div class="error"><%= message %></div>
+            <% } %>
+            <button type="submit">Login</button>
+        </form>
+        <div class = "signUp">Need a DRice Account? <a href="signUp">Sign-Up</a></div>
+        
+    </div>
+<%- include('footer.ejs') %>
