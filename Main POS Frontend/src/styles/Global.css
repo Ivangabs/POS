@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+* {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+html, body {
+    height : 100%;
+}
+* {
+  text-decoration: none;
+  list-style: none;
+  box-sizing : border-box;
+  margin : 0;
+  padding : 0;
+}
+body {
+  min-height: 100vh;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6nvKPRpge4gvUv3MrVjb5DyEOo9CAWG3F3A&s);
+  background-size : cover;
+  > .root {
+    width : 100%;
+  }
+}
